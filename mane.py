@@ -12,4 +12,14 @@ print ("get result 3456 for mane_function(3)")
 mane_function (4)
 print ("get result 456 for mane_function(4)")
 print ("So added new code line to mane....")
-print (Comment that cannot see changes from test branch")
+print ("Comment that cannot see changes from test branch")
+
+
+#when come to test branch cannot see two added last code lines from master"
+
+def test_function(j, k):
+    return j * k
+print (test_function (3, 7))
+print (test_function (8, 9))
+
+
