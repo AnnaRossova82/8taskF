@@ -9,3 +9,10 @@ mane_function (2)
 print ("get result 23456 for mane_function(2)")
 mane_function (3)
 print ("get result 3456 for mane_function(3)")
+
+#when come to test branch cannot see two added last code lines from master"
+
+def test_function(j, k):
+    return j * k
+print (test_function (3, 7))
+
