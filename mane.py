@@ -15,4 +15,5 @@ print ("get result 3456 for mane_function(3)")
 def test_function(j, k):
     return j * k
 print (test_function (3, 7))
+print (test_function (8, 9))
 
